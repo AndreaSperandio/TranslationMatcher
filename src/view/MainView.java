@@ -34,8 +34,8 @@ public class MainView extends JFrame {
 
 	private static final TMLocalizator LOC = new TMLocalizator(MainView.class);
 	private static final String DESKTOP_FOLDER = System.getProperty("user.home") + File.separator + "Desktop";
-	private static final String TRANS_SEPARATOR = "\t";
-	private static final String FILE_EXTENSION = ".txt";
+	private static final String FILE_EXTENSION = ".po";
+	private static final String FILE_EXPORT_EXTENSION = ".txt";
 	private static final String FILE_ENCODING = "UTF-8";
 
 	private final JLabel lblInstruction = new JLabel(MainView.LOC.getRes("lblInstruction"));
@@ -67,7 +67,7 @@ public class MainView extends JFrame {
 
 	private void setup() {
 		this.setTitle(MainView.LOC.getRes("title"));
-		final Dimension dimension = new Dimension(510, 530);// Toolkit.getDefaultToolkit().getScreenSize();
+		final Dimension dimension = new Dimension(610, 610);// Toolkit.getDefaultToolkit().getScreenSize();
 		this.setSize(dimension);
 		this.setPreferredSize(dimension);
 		// this.setExtendedState(Frame.MAXIMIZED_BOTH);
@@ -105,8 +105,8 @@ public class MainView extends JFrame {
 		final int margin = height + 10;
 		final int x = 20;
 		int y = 10;
-		this.lblInstruction.setBounds(x, y, 560, height * 4);
-		y += 90;
+		this.lblInstruction.setBounds(x, y, 560, height * 8);
+		y += 170;
 		this.lblTranslated.setBounds(x, y, 500, height);
 		y += margin;
 		this.btnTranslated.setBounds(x, y, 100, height);
@@ -144,12 +144,12 @@ public class MainView extends JFrame {
 
 		this.btnTranslated.addActionListener(e -> {
 			this.btnFileChooserActionPerformed(this.btnTranslated, MainView.LOC.getRes("jfcTranslated"),
-					this.lblTranslatedFile);
+					this.lblTranslatedFile, "Po Files", "po");
 			this.updateGraphics();
 		});
 		this.btnToTranslate.addActionListener(e -> {
 			this.btnFileChooserActionPerformed(this.btnToTranslate, MainView.LOC.getRes("jfcToTranslate"),
-					this.lblToTranslateFile);
+					this.lblToTranslateFile, "Po Files", "po");
 			this.updateGraphics();
 		});
 		this.btnMatch.addActionListener(e -> {
@@ -157,7 +157,8 @@ public class MainView extends JFrame {
 			this.updateGraphics();
 		});
 		this.btnExportPath.addActionListener(e -> {
-			this.btnFileChooserActionPerformed(this.btnExport, MainView.LOC.getRes("jfcExport"), this.lblExportFile);
+			this.btnFileChooserActionPerformed(this.btnExport, MainView.LOC.getRes("jfcExport"), this.lblExportFile,
+					"Text Files", "txt");
 			this.updateGraphics();
 		});
 		this.btnExport.addActionListener(e -> this.btnExportActionPerformed());
@@ -173,11 +174,12 @@ public class MainView extends JFrame {
 		this.btnExportPath.setEnabled(this.translatedStrings != null && !this.translatedStrings.isEmpty());
 		this.btnExport.setEnabled(this.exportFile != null);
 
-		this.lblExportPathWrn.setVisible(MainView.checkFile(this.exportFile, false));
+		this.lblExportPathWrn.setVisible(MainView.checkFile(this.exportFile, false, MainView.FILE_EXPORT_EXTENSION));
 	}
 
-	private void btnFileChooserActionPerformed(final TMButton caller, final String title, final JLabel label) {
-		final FileNameExtensionFilter filter = new FileNameExtensionFilter("Text Files", "txt");
+	private void btnFileChooserActionPerformed(final TMButton caller, final String title, final JLabel label,
+			final String extensionDesc, final String extension) {
+		final FileNameExtensionFilter filter = new FileNameExtensionFilter(extensionDesc, extension);
 		final JFileChooser jfc = new JFileChooser(MainView.DESKTOP_FOLDER);
 		jfc.setFileFilter(filter);
 		jfc.setFileSelectionMode(JFileChooser.FILES_ONLY);
@@ -195,8 +197,8 @@ public class MainView extends JFrame {
 				this.toTranslateFile = file;
 				this.translatedStrings = null;
 			} else {
-				if (!file.getName().endsWith(MainView.FILE_EXTENSION)) {
-					file = new File(file.getAbsolutePath() + MainView.FILE_EXTENSION);
+				if (!file.getName().endsWith(MainView.FILE_EXPORT_EXTENSION)) {
+					file = new File(file.getAbsolutePath() + MainView.FILE_EXPORT_EXTENSION);
 				}
 				this.exportFile = file;
 			}
@@ -220,8 +222,8 @@ public class MainView extends JFrame {
 			return;
 		}
 
-		final Map<String, String> translations = this.scanFile(this.translatedFile);
-		final Map<String, String> toTranslate = this.scanFile(this.toTranslateFile);
+		final Map<String, String> translations = this.scanFile(this.translatedFile, false);
+		final Map<String, String> toTranslate = this.scanFile(this.toTranslateFile, true);
 
 		if (translations.isEmpty() || toTranslate.isEmpty()) {
 			TMMessage.showInfoDialog(this, MainView.LOC.getRes("infNothingToTranslate"));
@@ -229,8 +231,13 @@ public class MainView extends JFrame {
 
 		int count = 0;
 		for (final String stringToTranslate : toTranslate.keySet()) {
-			if (toTranslate.get(stringToTranslate) == null && translations.containsKey(stringToTranslate)) {
-				toTranslate.put(stringToTranslate, translations.get(stringToTranslate));
+			if (toTranslate.get(stringToTranslate) == null || "".equals(toTranslate.get(stringToTranslate))) {
+				if (translations.containsKey(stringToTranslate) && translations.get(stringToTranslate) != null
+						&& !"".equals(translations.get(stringToTranslate))) {
+					toTranslate.put(stringToTranslate, translations.get(stringToTranslate));
+				} else {
+					toTranslate.put(stringToTranslate, stringToTranslate);
+				}
 				count++;
 			}
 		}
@@ -266,11 +273,11 @@ public class MainView extends JFrame {
 	}
 
 	private boolean checkParams() {
-		if (!MainView.checkFile(this.translatedFile, false)) {
+		if (!MainView.checkFile(this.translatedFile, false, MainView.FILE_EXTENSION)) {
 			TMMessage.showErrDialog(this, MainView.LOC.getRes("errTranslatedFile"));
 			return false;
 		}
-		if (!MainView.checkFile(this.toTranslateFile, false)) {
+		if (!MainView.checkFile(this.toTranslateFile, false, MainView.FILE_EXTENSION)) {
 			TMMessage.showErrDialog(this, MainView.LOC.getRes("errToTranslateFile"));
 			return false;
 		}
@@ -283,7 +290,7 @@ public class MainView extends JFrame {
 	}
 
 	private boolean checkExportParams() {
-		if (!MainView.checkFile(this.exportFile, true)) {
+		if (!MainView.checkFile(this.exportFile, true, MainView.FILE_EXPORT_EXTENSION)) {
 			TMMessage.showErrDialog(this, MainView.LOC.getRes("errExportPath"));
 			return false;
 		}
@@ -291,7 +298,7 @@ public class MainView extends JFrame {
 		return true;
 	}
 
-	private static boolean checkFile(final File file, final boolean createIfAbsent) {
+	private static boolean checkFile(final File file, final boolean createIfAbsent, final String extension) {
 		if (file == null || !file.exists() || !file.isFile()) {
 			if (createIfAbsent) {
 				try {
@@ -305,10 +312,10 @@ public class MainView extends JFrame {
 			return false;
 		}
 
-		return file.getName().endsWith(MainView.FILE_EXTENSION);
+		return file.getName().endsWith(extension);
 	}
 
-	private Map<String, String> scanFile(final File file) {
+	private Map<String, String> scanFile(final File file, final boolean removeAlreadyTranslated) {
 		final Map<String, String> map = new LinkedHashMap<>();
 		if (file == null) {
 			return map;
@@ -318,9 +325,25 @@ public class MainView extends JFrame {
 				BufferedReader br = new BufferedReader(new InputStreamReader(fis, MainView.FILE_ENCODING));) {
 			while (br.ready()) {
 				final String line = br.readLine();
-				if (line != null) {
-					final String[] lineSplit = line.split(MainView.TRANS_SEPARATOR);
-					map.put(lineSplit[0], lineSplit.length > 1 ? lineSplit[1] : null);
+				if (line != null && line.startsWith("msgid")) {
+					final String[] lineSplit = line.split("msgid");
+					if (lineSplit.length != 2) {
+						continue;
+					}
+
+					final String id = lineSplit[1].trim().replace("\"", "");
+					if (br.ready()) {
+						final String nextLine = br.readLine();
+						if (nextLine != null && nextLine.startsWith("msgstr")) {
+							final String[] nextLineSplit = nextLine.split("msgstr");
+							if (nextLineSplit.length == 2) {
+								final String key = nextLineSplit[1].trim().replace("\"", "");
+								if (!removeAlreadyTranslated || "".equals(key)) {
+									map.put(id, key);
+								}
+							}
+						}
+					}
 				}
 			}
 		} catch (final FileNotFoundException e) {
@@ -341,7 +364,7 @@ public class MainView extends JFrame {
 		try (FileOutputStream fos = new FileOutputStream(file);
 				BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos, MainView.FILE_ENCODING));) {
 			for (final String key : map.keySet()) {
-				bw.write(key + (map.get(key) != null ? MainView.TRANS_SEPARATOR + map.get(key) : ""));
+				bw.write(map.get(key) != null ? map.get(key) : "");
 				bw.newLine();
 			}
 			return true;
