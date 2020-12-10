@@ -1,0 +1,283 @@
+Oops! That page can&rsquo;t be found.	Oops! Pagina non trovata.
+It looks like nothing was found at this location.	Sembra che non vi sia nulla in questa posizione.
+Author: %s	Autore: %s
+Day: %s	Giorno: %s
+Month: %s	Mese: %s
+Year: %s	Anno: %s
+Asides	Digressioni
+Images	Immagini
+Videos	Video
+Quotes	Citazioni
+Links	Links
+Archives	Archivi
+
+Context: comments title
+Singolare:
+One comment on &ldquo;%2$s&rdquo;
+Plurale:
+%1$s comments on &ldquo;%2$s&rdquo;
+Context: comments title
+Risultato indice plurale = 0
+Un commento a &ldquo;%2$s&rdquo;
+Risultato indice plurale = 1
+%1$s commenti a &ldquo;%2$s&rdquo;
+Modifica | Copia
+&larr; Older Comments	&larr; Commenti precedenti
+Newer Comments &rarr;	Commenti successivi &rarr;
+Comments are closed.	I commenti sono chiusi.
+Name	Nome
+Email	eMail
+Website	Sito web
+Comment	Commento
+You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s	Puoi utilizzare questi tag e attributi <abbr title=\"HyperText Markup Language\">HTML</abbr>: %s
+Pages:	Pagine:
+, 	, 
+Primary Menu	Menu principale
+Sidebar right	Sidebar destra
+Sidebar left	Sidebar sinistra
+Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>	Pubblicato <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> il <a href=\"%3$s\" title=\"Collegamento immagine\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Ritorna a %7$s\" rel=\"gallery\">%8$s</a>
+<span class=\"meta-nav\">&larr;</span> Previous	<span class=\"meta-nav\">&larr;</span> Precedente
+Next <span class=\"meta-nav\">&rarr;</span>	Successivo <span class=\"meta-nav\">&rarr;</span>
+Page %s	Pagina %s
+Posted in	Pubblicato in
+Pingback:	Pingback:
+Edit	Modifica
+
+Context: 1: date, 2: time
+%1$s at %2$s	
+Context: 1: date, 2: time
+%1$s alle %2$s
+Your comment is awaiting moderation.	Il tuo commento è in attesa di moderazione.
+%s <span class=\"says\">says:</span>	%s <span class=\"says\">dice:</span>
+Reply	Rispondi
+Log in to Reply	Effettua il login per rispondere
+
+Context: placeholder
+Search &hellip;	
+Context: placeholder
+Ricerca &hellip;
+
+Context: label
+Search &hellip;	
+Context: label
+Ricerca &hellip;
+Search	Ricerca
+Continue reading <span class=\"meta-nav\">&rarr;</span>	Continua a leggere <span class=\"meta-nav\">&rarr;</span>
+<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>	<span class=\"posted-on\">Pubblicato il %1$s</span><span class=\"byline\"> da %2$s</span>
+View all posts by %s	Vedi tutti i post di %s
+Tagged	Taggato
+
+Context: label
+Search for:	
+Context: label
+Ricerca per:
+Nothing Found	Nessun risultato
+Sorry, but nothing matched your search terms. Please try again with some different keywords.	Ci dispiace, ma non è stata trovata corrispondenza con i termini di ricerca. Riprova con alcune parole chiave diverse.
+It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.	Sembra che non sia stato trovato quello che stai cercando. Forse una ricerca potrebbe aiutare.
+Search Results for: %s	Risultati della ricerca per: %s
+<a href=\"%1$s\" title=\"Permalink to %2$s\" rel=\"bookmark\">permalink</a>.	<a href=\"%1$s\" title=\"Permalink a %2$s\" rel=\"bookmark\">permalink</a>.
+I UNDERSTAND	HO CAPITO
+Menu	Menu
+Offers	Offerte
+Sorry, the page you requested has been permanently removed.	Spiacenti, la pagina che cercavi è un vecchio contenuto che non esiste più, è stato rimosso.
+We inform you that to improve your browsing experience on this website, Romagna Bike, as the Data Controller, uses different types of cookies, including technical, analytical and advertising cookies. The page with the full privacy notice contains information on how to deny your consent to the use of profiling cookies. By clicking on “I UNDERSTAND” or by continuing browsing the website, you declare to have understood the terms of the privacy policy pursuant to articles 13 and 14 of Regulation (EU) 2016/679.	La informiamo che, per migliorare la Sua esperienza di navigazione su questo sito web, Romagna Bike, in qualità di titolare del trattamento, utilizza diversi tipi di cookie, tra cui cookies tecnici, analitici e pubblicitari. Nella pagina dell'informativa completa sono presenti le istruzioni per negare il consenso all'utilizzo dei cookie di profilazione. Cliccando su “HO CAPITO” o continuando la navigazione, dichiara di avere compreso le modalità nell'informativa completa ai sensi degli articoli 13 e 14 del Reg. (UE) 2016/679.
+Useful infos	Info utili
+Hotels	Hotel
+Close	Chiudi
+Your name	Il tuo nome
+Your email address	Il tuo indirizzo email
+Read here the confidentiality agreement in reference to art. 13 of EU regulation 2016/679	Leggi qui l’informativa privacy in riferimento all’art. 13 del Regolamento UE 2016/679
+Subscribe	Iscriviti
+Change language:	Cambia lingua:
+Follow us	Seguici
+Romagna Bike on Instagram	Romagna Bike su Instagram
+Romagna Bike on YouTube	Romagna Bike su YouTube
+Romagna Bike: %s	Romagna Bike: %s
+Romagna Bike: %s | Cycling routes in Romagna	Romagna Bike: %s | Percorsi ciclistici in Romagna
+ROAD	BDC
+MTB	MTB
+Find out more	Scopri di più
+Gallery	Gallery
+Ferrara	Ferrara
+Ravenna	Ravenna
+Rimini	Rimini
+Forlì and Cesena	Forlì e Cesena
+Area	Area
+Mountain bike	Mountain bike
+Easy	Facile
+Medium	Medio
+Hard	Difficile
+Road bike	Bici da strada
+easy	facile
+medium	medio
+hard	difficile
+Powered by	Realizzato da
+Area38 – Hotel Web Marketing	Area38 – Web Marketing per Hotel
+Hospitality Marketing	Hospitality Marketing
+GRAVEL	GRAVEL
+Gravel bike	Gravel bike
+January	Gennaio
+February	Febbraio
+March	Marzo
+April	Aprile
+May	Maggio
+June	Giugno
+July	Luglio
+August	Agosto
+September	Settembre
+October	Ottobre
+November	Novembre
+December	Dicembre
+Home	Home
+Coordination of	Coordinamento di
+Enter	Entra
+enter	entra
+Events	Eventi
+events	eventi
+No spam	No spam
+Tel.	Tel.
+Romagna Bike on Facebook	Romagna Bike on Facebook
+Romagna Bike on Twitter	Romagna Bike on Twitter
+Romagna Bike on Flickr	Romagna Bike on Flickr
+Terrabici	Terrabici
+Favourites	Preferiti
+Food & Wine experiences	Esperienze enogastronomiche
+Experiences	Esperienze
+Food & Wine	Enogastronomiche
+Variety, quality and tradition: the gastronomic cradle of Italy	Varietà, qualità e tradizione: la culla gastronomica d'Italia
+Villages, fortresses and castles	Borghi, fortezze e castelli
+Villages, fortresses	Borghi, fortezze
+and castles	e castelli
+Gems hidden among the valleys: the Romagna of villages, fortresses and castles	Gemme nascoste tra le vallate: la Romagna di borghi, rocche e castelli
+Iconic Experiences	Esperienze iconiche
+Routes, climbs, panoramic viewpoints: Romagna not to be missed	Percorsi, salite, punti panoramici: la Romagna da non perdere
+Local secrets	Segreti locali
+Places, suggestions and goodies: Romagna beyond the conventional routes	Luoghi, suggerimenti e chicche: la Romagna oltre le rotte convenzionali
+Show all events	Mostra tutti gli eventi
+Discover the other experiences	Scopri le altre esperienze
+View the best routes in Romagna, divided by type of experience.	Visualizza i percorsi migliori in Romagna, divisi per tipo di esperienza.
+Iconic routes	Percorsi iconici
+Routes	Percorsi
+Iconic	Iconici
+Villages and castles	Borghi e castelli
+Filter by	Filtra per
+Type of bike	Tipologia di bici
+See for yourself	Guarda con i tuoi occhi
+Discover the other destinations	Scopri le altre destinazioni
+Experience	Esperienza
+routes	percorsi
+Where	Dove
+See all the routes	Vedi tutti i percorsi
+favourites	preferiti
+Favourite routes	Percorsi preferiti
+<strong>0</strong> added routes	<strong>0</strong> percorsi aggiunti
+click on the box to add them to your favourites	clicca sul box per aggiungerli tra i tuoi preferiti
+<strong>%s</strong> routes	<strong>%s</strong> percorsi
+Favourite events	Eventi preferiti
+<strong>0</strong> added events	<strong>0</strong> eventi aggiunti
+<strong>%s</strong> events	<strong>%s</strong> eventi
+Add routes	Aggiungi percorsi
+Add events	Aggiungi eventi
+Difficulties	Difficoltà
+Stay in touch with Romagna!	Resta in contatto con la Romagna!
+Romagna is synonymous with hospitality. As people of Romagna, we want to keep you constantly informed about events, itineraries and special offers dedicated specifically to cyclists.	Romagna è sinonimo di ospitalità. Da buoni romagnoli vogliamo tenerti sempre informato su eventi, itinerari e offerte a misura di ciclista.
+Ideas for routes	Idee per itinerari
+Current offers	Offerte del momento
+All the lists	Tutte le liste
+No event yet added to favourites	Nessun evento ancora aggiunto ai preferiti
+No route yet added to favourites	Nessun percorso ancora aggiunto ai preferiti
+Period	Periodo
+add to favourites	aggiungi ai preferiti
+added to favourites	aggiunto ai preferiti
+Itinerary	Itinerario
+Download trace GPX	Scarica traccia GPX
+Download trace KMZ	Scarica traccia KMZ
+Curiosities	Curiosità
+If you liked this route, we also suggest	Se ti è piaciuto questo percorso ti consigliamo anche
+Feel lucky?	Ti senti fortunato?
+Discover a random route	Scopri un percorso random
+Start dreaming about your holiday in Ferrara! Choose from among certified bike hotels and discover the current offers to plan an unforgettable experience.	Inizia a sognare la tua vacanza a Ferrara! Scegli fra bike hotel certificati e scopri le offerte del momento per pianificare un’esperienza indimenticabile.
+Start dreaming about your holiday in Ravenna! Choose from among certified bike hotels and discover the current offers to plan an unforgettable experience.	Inizia a sognare la tua vacanza a Ravenna! Scegli fra bike hotel certificati e scopri le offerte del momento per pianificare un’esperienza indimenticabile.
+Start dreaming about your holiday in Forlì-Cesena! Choose from among certified bike hotels and discover the current offers to plan an unforgettable experience.	Inizia a sognare la tua vacanza a Forlì-Cesena! Scegli fra bike hotel certificati e scopri le offerte del momento per pianificare un’esperienza indimenticabile.
+Start dreaming about your holiday in Rimini! Choose from among certified bike hotels and discover the current offers to plan an unforgettable experience.	Inizia a sognare la tua vacanza a Rimini! Scegli fra bike hotel certificati e scopri le offerte del momento per pianificare un’esperienza indimenticabile.
+Start dreaming about Romagna! Check out the best routes and current offers to plan your unforgettable holiday.	Inizia a sognare la Romagna! Consulta i percorsi migliori e le offerte del momento per pianificare la tua vacanza indimenticabile.
+Start dreaming about Romagna! Choose your hotel and take a look at current offers to plan your unforgettable holiday.	Inizia a sognare la Romagna! Scegli il tuo hotel e scopri le offerte del momento per pianificare la tua vacanza indimenticabile.
+The best bike hotels in Ferrara: facilities for cycling fans	I migliori bike hotel a Ferrara: strutture per chi ama la bici
+The best bike hotels in Ravenna: facilities for cycling fans	I migliori bike hotel a Ravenna: strutture per chi ama la bici
+The best bike hotels in Forlì-Cesena: facilities for cycling fans	I migliori bike hotel a Forlì-Cesena: strutture per chi ama la bici
+The best bike hotels in Rimini: facilities for cycling fans	I migliori bike hotel a Rimini: strutture per chi ama la bici
+Choose from among the best hotels in Romagna, where hospitality is a byword	Scegli tra i migliori hotel in Romagna, dove l'accoglienza è di casa
+See hotels	Vedi hotel
+Current packages	Pacchetti del momento
+Selected offers to discover Ferrara by bike	Offerte selezionate per scoprire Ferrara in sella alla bici
+Selected offers to discover Ravenna by bike	Offerte selezionate per scoprire Ravenna in sella alla bici
+Selected offers to discover Forlì-Cesena by bike	Offerte selezionate per scoprire Forlì-Cesena in sella alla bici
+Selected offers to discover Rimini by bike	Offerte selezionate per scoprire Rimini in sella alla bici
+Take advantage of our best offers to discover Romagna	Approfitta delle nostre migliore offerte per scoprire la Romagna
+See offers	Vedi offerte
+Racing bikes, MTB, E-MTB and gravel. Find the right route for you.	Bici da corsa, MTB, E-MTB e gravel. Trova il percorso adatto a te.
+See routes	Vedi percorsi
+A UNESCO World Heritage Site and \"City of Bicycles\", Ferrara will win you over with its historic centre, its Estense \"Delights\" and its peaceful countryside.	Patrimonio dell’umanità Unesco e \"Città delle biciclette\", Ferrara saprà conquistarti con il suo centro storico, le \"Delizie\" estensi e la sua silenziosa campagna.
+A city of art par excellence located between the sea and the hills, Ravenna will entice you with its millenary history and the famous Byzantine mosaics of its basilicas.	Città d’arte romagnola per eccellenza collocata tra mare e colline, Ravenna ti coinvolgerà con la sua storia millenaria e i famosi mosaici bizantini delle sue basiliche.
+Bertinoro, the Sangiovese vineyards and the renowned thermal spas are just some of the treasures preserved in the area of Forlì-Cesena, all to be discovered while cycling.	Bertinoro, le vigne di Sangiovese e i rinomati centri termali sono soltanto alcuni dei tesori custoditi nel territorio di Forlì-Cesena, una zona tutta da scoprire pedalando.
+Not only beaches: let yourself be guided to discover the city of the Malatesta and Fellini, the villages of San Leo and Verucchio and the valley of the river Marecchia.	Non solo spiagge: lasciati guidare alla scoperta della città dei Malatesta e di Fellini, dei borghi di San Leo e Verucchio e della vallata del fiume Marecchia.
+Click on the areas below to start your journey of discovery of Romagna and its countryside.	Clicca sulle aree qui sotto per iniziare il tuo viaggio alla scoperta della Romagna e dei suoi territori.
+Find the inspiration	Trova l'ispirazione
+Experience Romagna in all its facets, let yourself be inspired by a region rich in excellence through four different experiences.	Vivi la Romagna in tutte le sue sfaccettature, lasciati ispirare da un territorio ricco di eccellenze attraverso quattro diverse esperienze.
+Ferrara events	Eventi Ferrara
+Gran Fondo del Po and much more. Discover the best events organized in Ferrara (and surroundings) dedicated to cycling enthusiasts.	Gran Fondo del Po e molto altro. Scopri i migliori eventi organizzati a Ferrara (e dintorni) dedicati agli appassionati della bici.
+Ravenna events	Eventi Ravenna
+Gran Fondo Cassani, Gran Fondo Via del Sale and much more. Discover the best events organized in Ravenna (and surroundings) dedicated to cycling enthusiasts.	Gran Fondo Cassani, Gran Fondo Via del Sale e molto altro. Scopri i migliori eventi organizzati a Ravenna (e dintorni) dedicati agli appassionati della bici.
+Forlì-Cesena events	Eventi Forlì-Cesena
+Gran Fondo 9 Colli, Gran Fondo Marco Pantani and much more. Discover the best events organized in Forlì-Cesena (and surroundings) dedicated to bike fans.	Gran Fondo 9 Colli, Gran Fondo Marco Pantani e molto altro. Scopri i migliori eventi organizzati a Forlì-Cesena (e dintorni) dedicati agli appassionati della bici.
+Rimini events	Eventi Rimini
+Gran Fondo degli Squali, Ride Riccione and much more. Discover the best events organized in Rimini (and surroundings) dedicated to bike fans.	Gran Fondo degli Squali, Ride Riccione e molto altro. Scopri i migliori eventi organizzati a Rimini (e dintorni) dedicati agli appassionati della bici.
+Cycle tourism, mountain biking, Gran Fondo and, above all, the Giro d'Italia 2020. Discover the many events organized in Romagna; unmissable events for cycling lovers.	Cicloturismo, mountain bike, Gran Fondo e, soprattutto, il Giro d’Italia 2020. Scopri i numerosi eventi organizzati in Romagna, appuntamenti imperdibili per gli amanti del ciclismo.
+Choose your routes in Ferrara	Scegli i tuoi percorsi a Ferrara
+Choose your routes in Ravenna	Scegli i tuoi percorsi a Ravenna
+Choose your routes in Forlì-Cesena	Scegli i tuoi percorsi a Forlì-Cesena
+Choose your routes in Rimini	Scegli i tuoi percorsi a Rimini
+View routes directly on the map or filter the selection by experience and bike type. You can then save the routes among your favourites.	Visualizza i percorsi direttamente sulla mappa oppure filtra la selezione per tipo di esperienza e bicicletta. Potrai poi salvare gli itinerari tra i tuoi percorsi preferiti.
+The best routes to discover Romagna's <span>food and wine treasures</span>	I migliori percorsi per scoprire i <span>tesori enogastronomici</span> romagnoli
+The best routes to discover <span>fortresses, villages and castles</span>	I migliori percorsi per scoprire <span>rocche, borghi e castelli</span>
+The best routes to discover <span>iconic places</span> in Romagna	I migliori percorsi per scoprire i <span>luoghi</span> iconici in Romagna
+The best routes to discover <span>local secrets</span>	I migliori percorsi per scoprire i <span>segreti locali</span>
+View routes directly on the map or filter the selection by area and type of bike. You can then save the routes as favourites.	Visualizza i percorsi direttamente sulla mappa oppure filtra la selezione per area e tipo di bicicletta. Potrai poi salvare gli itinerari tra i preferiti.
+at APT Servizi srl	presso APT Servizi srl
+Certified email:	PEC:
+Bicycle routes	Percorsi per bici
+All	Tutti
+Bike Hotels certified by Terrabici	Bike Hotel certificati da Terrabici
+Bike Hotels certified by %s	Bike Hotel certificati da %s
+Bike rental, bike room, guided tours, food designed for athletes and much more. The Bike Hotels of the Terrabici circuit offer services specifically designed for the needs of those who choose a holiday where the bicycle plays lead role.	Noleggio bici, bike room, tour guidati, alimentazione studiata per sportivi e molto altro. I Bike Hotel del circuito Terrabici offrono servizi specificatamente studiati per le esigenze di chi sceglie di vivere una vacanza con la bici protagonista.
+Discover the certified Bike Hotels	Scopri i Bike Hotel certificati
+Hotels, pensions and campsites. Discover all the facilities in the Romagna region and plan your holiday in Romagna in complete autonomy. You can count on the hospitality of hundreds of facilities suitable for every need.	Hotel, pensioni e campeggi. Scopri tutte le strutture presenti sul territorio romagnolo e pianifica la tua vacanza in Romagna in completa autonomia. Potrai contare sull’ospitalità di centinaia di strutture adatte a ogni esigenza.
+Discover the facilities in Romagna	Scopri le strutture in Romagna
+Offers certified by Terrabici	Offerte certificate da Terrabici
+Offers certified by %s	Offerte certificate da %s
+Discover all the currently available package offered by Bike Hotels certified by Terrabici and find the right solution for a holiday where the bicycle plays lead role. Offers for cycling events, training camps and much more.	Scopri tutti i pacchetti del momento dei Bike Hotel certificati da Terrabici e trova la soluzione per una vacanza con la bici protagonista. Offerte per eventi ciclistici, training camp e molto altro.
+Discover all the offers	Scopri tutte le offerte
+Special hotel offers in Romagna	Offerte degli hotel in Romagna
+Discover the numerous offers of hotels in Romagna and organize your next cycling holiday. Wellness packages, holiday offers and much more.	Scopri le numerose offerte degli hotel presenti sul territorio romagnolo e organizza la tua prossima vacanza in bici. Pacchetti benessere, offerte per festività e molto altro.
+Be inspired	Lasciati ispirare
+Or find the route that's right for you	Oppure trova il percorso che fa per te
+We have selected the best routes by area. See the map below to find the route that's right for you.	Abbiamo selezionato gli itinerari migliori raggruppandoli per area. Consulta la mappa qui sotto per trovare il percorso che fa per te.
+Tourist destination Romagna	Destinazione turistica Romagna
+Taxpayer’s Code	C.F.
+kilometres of itinerary	km di itinerari
+<span>Food & Wine</span><br /><span>Experiences</span>	<span>Esperienze</span><br/><span>enogastronomiche</span>
+<span>Iconic</span><br /><span>Experiences</span>	<span>Esperienze</span><br/><span>iconiche</span>
+Hotels in Romagna	Hotel in Romagna
+Privacy & Cookie policy	Privacy & Cookie policy
+PRIVACY AND COOKIE NOTICE	INFORMATIVA PRIVACY E COOKIE
+E-bike	E-bike
+E-BIKE	E-BIKE
+Bike & Family	Bike & Family
+Cycling with the family: delightful cycle rides that are suitable for children too	In bici con la famiglia: piacevoli pedalate adatte anche ai bambini
+The best routes to discover cycling with the <span>family</span>	I migliori percorsi per scoprire in bici con la <span>famiglia</span>
+Food and wine stops, small villages, unmissable sites, secret locations and itineraries for all the family. Choose the experience that best suits you and discover all the excellences of Romagna.	 
+Discover the other experiences in Romagna	Scopri le altre esperienze in Romagna
+Visit Romagna	Visit Romagna
+Camera di Commercio della Romagna	Camera di Commercio della Romagna
+Romagna for those who love cycling	La Romagna per chi ama pedalare
+Download a preview of the routes	Scarica un’anteprima dei percorsi
