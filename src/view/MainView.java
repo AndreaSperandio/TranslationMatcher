@@ -67,7 +67,7 @@ public class MainView extends JFrame {
 
 	private void setup() {
 		this.setTitle(MainView.LOC.getRes("title"));
-		final Dimension dimension = new Dimension(510, 490);// Toolkit.getDefaultToolkit().getScreenSize();
+		final Dimension dimension = new Dimension(510, 530);// Toolkit.getDefaultToolkit().getScreenSize();
 		this.setSize(dimension);
 		this.setPreferredSize(dimension);
 		// this.setExtendedState(Frame.MAXIMIZED_BOTH);
@@ -103,9 +103,9 @@ public class MainView extends JFrame {
 		final int height = 20;
 		final int margin = height + 10;
 		final int x = 20;
-		int y = 20;
-		this.lblInstruction.setBounds(x, y, 560, height * 2);
-		y += 50;
+		int y = 10;
+		this.lblInstruction.setBounds(x, y, 560, height * 4);
+		y += 90;
 		this.lblTranslated.setBounds(x, y, 500, height);
 		y += margin;
 		this.btnTranslated.setBounds(x, y, 100, height);
