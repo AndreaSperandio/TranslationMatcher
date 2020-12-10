@@ -173,7 +173,7 @@ public class MainView extends JFrame {
 		this.btnExportPath.setEnabled(this.translatedStrings != null && !this.translatedStrings.isEmpty());
 		this.btnExport.setEnabled(this.exportFile != null);
 
-		this.lblExportPathWrn.setVisible(this.checkFile(this.exportFile, false));
+		this.lblExportPathWrn.setVisible(MainView.checkFile(this.exportFile, false));
 	}
 
 	private void btnFileChooserActionPerformed(final TMButton caller, final String title, final JLabel label) {
@@ -249,7 +249,7 @@ public class MainView extends JFrame {
 				try {
 					Desktop.getDesktop().open(this.exportFile);
 				} catch (final IOException e) {
-					TMMessage.showErrDialog(this, "errInternalError");
+					TMMessage.showErrDialog(this, MainView.LOC.getRes("errInternalError"));
 					e.printStackTrace();
 				}
 			}
@@ -266,11 +266,11 @@ public class MainView extends JFrame {
 	}
 
 	private boolean checkParams() {
-		if (!this.checkFile(this.translatedFile, false)) {
+		if (!MainView.checkFile(this.translatedFile, false)) {
 			TMMessage.showErrDialog(this, MainView.LOC.getRes("errTranslatedFile"));
 			return false;
 		}
-		if (!this.checkFile(this.toTranslateFile, false)) {
+		if (!MainView.checkFile(this.toTranslateFile, false)) {
 			TMMessage.showErrDialog(this, MainView.LOC.getRes("errToTranslateFile"));
 			return false;
 		}
@@ -283,7 +283,7 @@ public class MainView extends JFrame {
 	}
 
 	private boolean checkExportParams() {
-		if (!this.checkFile(this.exportFile, true)) {
+		if (!MainView.checkFile(this.exportFile, true)) {
 			TMMessage.showErrDialog(this, MainView.LOC.getRes("errExportPath"));
 			return false;
 		}
@@ -291,14 +291,14 @@ public class MainView extends JFrame {
 		return true;
 	}
 
-	private boolean checkFile(final File file, final boolean createIfAbsent) {
+	private static boolean checkFile(final File file, final boolean createIfAbsent) {
 		if (file == null || !file.exists() || !file.isFile()) {
 			if (createIfAbsent) {
 				try {
 					file.createNewFile();
 					return true;
 				} catch (final IOException e) {
-					TMMessage.showErrDialog(this, "errInternalError");
+					//TMMessage.showErrDialog(this, LOC.getRes("errInternalError"));
 					e.printStackTrace();
 				}
 			}
