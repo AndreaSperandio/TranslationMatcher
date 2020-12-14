@@ -36,6 +36,7 @@ public class MainView extends JFrame {
 	private static final String DESKTOP_FOLDER = System.getProperty("user.home") + File.separator + "Desktop";
 	private static final String FILE_EXTENSION = ".po";
 	private static final String FILE_EXPORT_EXTENSION = ".txt";
+	private static final String TRANS_SEPARATOR = "\t";
 	private static final String FILE_ENCODING = "UTF-8";
 
 	private final JLabel lblInstruction = new JLabel(MainView.LOC.getRes("lblInstruction"));
@@ -364,7 +365,7 @@ public class MainView extends JFrame {
 		try (FileOutputStream fos = new FileOutputStream(file);
 				BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos, MainView.FILE_ENCODING));) {
 			for (final String key : map.keySet()) {
-				bw.write(map.get(key) != null ? map.get(key) : "");
+				bw.write(key + (map.get(key) != null ? MainView.TRANS_SEPARATOR + map.get(key) : ""));
 				bw.newLine();
 			}
 			return true;

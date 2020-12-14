@@ -1,0 +1,1581 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Romagna Bike v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-12-01 15:06:32+0000\n"
+"Last-Translator: nimdacervino <f.berardi@area38.it>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:8
+#: 410.php:8
+#@ area38
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Pagina non trovata."
+
+#: 404.php:12
+#@ area38
+msgid "It looks like nothing was found at this location."
+msgstr "Sembra che non vi sia nulla in questa posizione."
+
+#: archive.php:46
+#, php-format
+#@ area38
+msgid "Author: %s"
+msgstr "Autore: %s"
+
+#: archive.php:53
+#, php-format
+#@ area38
+msgid "Day: %s"
+msgstr "Giorno: %s"
+
+#: archive.php:55
+#, php-format
+#@ area38
+msgid "Month: %s"
+msgstr "Mese: %s"
+
+#: archive.php:57
+#, php-format
+#@ area38
+msgid "Year: %s"
+msgstr "Anno: %s"
+
+#: archive.php:59
+#@ area38
+msgid "Asides"
+msgstr "Digressioni"
+
+#: archive.php:61
+#@ area38
+msgid "Images"
+msgstr "Immagini"
+
+#: archive.php:63
+#@ area38
+msgid "Videos"
+msgstr "Video"
+
+#: archive.php:65
+#@ area38
+msgid "Quotes"
+msgstr "Citazioni"
+
+#: archive.php:67
+#@ area38
+msgid "Links"
+msgstr "Links"
+
+#: archive.php:69
+#@ area38
+msgid "Archives"
+msgstr "Archivi"
+
+#: comments.php:20
+#, php-format
+#@ area38
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un commento a &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s commenti a &ldquo;%2$s&rdquo;"
+
+#: comments.php:26
+#: comments.php:45
+#@ area38
+msgid "&larr; Older Comments"
+msgstr "&larr; Commenti precedenti"
+
+#: comments.php:27
+#: comments.php:46
+#@ area38
+msgid "Newer Comments &rarr;"
+msgstr "Commenti successivi &rarr;"
+
+#: comments.php:55
+#@ area38
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: comments.php:94
+#@ area38
+msgid "Name"
+msgstr "Nome"
+
+#: comments.php:100
+#@ area38
+msgid "Email"
+msgstr "eMail"
+
+#: comments.php:106
+#@ area38
+msgid "Website"
+msgstr "Sito web"
+
+#: comments.php:113
+#@ area38
+msgid "Comment"
+msgstr "Commento"
+
+#: comments.php:119
+#, php-format
+#@ area38
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "Puoi utilizzare questi tag e attributi <abbr title=\"HyperText Markup Language\">HTML</abbr>: %s"
+
+#: content-aside.php:14
+#: content-link.php:26
+#: content-quote.php:14
+#: content-single.php:15
+#: content.php:24
+#@ area38
+msgid "Pages:"
+msgstr "Pagine:"
+
+#. translators: used between list items, there is a space after the comma
+#: content-aside.php:29
+#: content-aside.php:39
+#: content-link.php:39
+#: content-link.php:49
+#: content-quote.php:26
+#: content-quote.php:36
+#: content-single.php:25
+#: content-single.php:28
+#: content.php:38
+#: content.php:48
+#@ area38
+msgid ", "
+msgstr ", "
+
+#: functions.php:60
+#@ area38
+msgid "Primary Menu"
+msgstr "Menu principale"
+
+#: functions.php:78
+#@ area38
+msgid "Sidebar right"
+msgstr "Sidebar destra"
+
+#: functions.php:87
+#@ area38
+msgid "Sidebar left"
+msgstr "Sidebar sinistra"
+
+#: image.php:24
+#, php-format
+#@ area38
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "Pubblicato <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> il <a href=\"%3$s\" title=\"Collegamento immagine\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Ritorna a %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: image.php:42
+#@ area38
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Precedente"
+
+#: image.php:43
+#@ area38
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Successivo <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/extras.php:85
+#, php-format
+#@ area38
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: inc/template-tags.php:11
+#@ area38
+msgid "Posted in"
+msgstr "Pubblicato in"
+
+#: inc/template-tags.php:27
+#@ area38
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:29
+#: inc/template-tags.php:63
+#: inc/template-tags.php:104
+#@ area38
+msgid "Edit"
+msgstr "Modifica"
+
+#: inc/template-tags.php:59
+#, php-format
+#@ area38
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s alle %2$s"
+
+#: inc/template-tags.php:68
+#@ area38
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento è in attesa di moderazione."
+
+#: inc/template-tags.php:72
+#, php-format
+#@ area38
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">dice:</span>"
+
+#: inc/template-tags.php:81
+#@ area38
+msgid "Reply"
+msgstr "Rispondi"
+
+#: inc/template-tags.php:82
+#@ area38
+msgid "Log in to Reply"
+msgstr "Effettua il login per rispondere"
+
+#: inc/template-tags.php:117
+#: searchform.php:10
+#@ area38
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Ricerca &hellip;"
+
+#: inc/template-tags.php:117
+#@ area38
+msgctxt "label"
+msgid "Search &hellip;"
+msgstr "Ricerca &hellip;"
+
+#: inc/template-tags.php:120
+#: searchform.php:12
+#@ area38
+msgid "Search"
+msgstr "Ricerca"
+
+#: inc/template-tags.php:144
+#@ area38
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continua a leggere <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:199
+#, php-format
+#@ area38
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">Pubblicato il %1$s</span><span class=\"byline\"> da %2$s</span>"
+
+#: inc/template-tags.php:207
+#, php-format
+#@ area38
+msgid "View all posts by %s"
+msgstr "Vedi tutti i post di %s"
+
+#: inc/template-tags.php:217
+#@ area38
+msgid "Tagged"
+msgstr "Taggato"
+
+#: searchform.php:10
+#@ area38
+msgctxt "label"
+msgid "Search for:"
+msgstr "Ricerca per:"
+
+#: archive.php:100
+#: search.php:49
+#@ area38
+msgid "Nothing Found"
+msgstr "Nessun risultato"
+
+#: search.php:52
+#@ area38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Ci dispiace, ma non è stata trovata corrispondenza con i termini di ricerca. Riprova con alcune parole chiave diverse."
+
+#: archive.php:103
+#@ area38
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Sembra che non sia stato trovato quello che stai cercando. Forse una ricerca potrebbe aiutare."
+
+#: search.php:35
+#, php-format
+#@ area38
+msgid "Search Results for: %s"
+msgstr "Risultati della ricerca per: %s"
+
+#: content-single.php:36
+#, php-format
+#@ area38
+msgid "<a href=\"%1$s\" title=\"Permalink to %2$s\" rel=\"bookmark\">permalink</a>."
+msgstr "<a href=\"%1$s\" title=\"Permalink a %2$s\" rel=\"bookmark\">permalink</a>."
+
+#: footer.php:81
+#@ area38
+msgid "I UNDERSTAND"
+msgstr "HO CAPITO"
+
+#: header.php:207
+#@ area38
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:184
+#: header.php:209
+#@ area38
+msgid "Offers"
+msgstr "Offerte"
+
+#: 410.php:12
+#@ area38
+msgid "Sorry, the page you requested has been permanently removed."
+msgstr "Spiacenti, la pagina che cercavi è un vecchio contenuto che non esiste più, è stato rimosso."
+
+#: footer.php:84
+#@ area38
+msgid "We inform you that to improve your browsing experience on this website, Romagna Bike, as the Data Controller, uses different types of cookies, including technical, analytical and advertising cookies. The page with the full privacy notice contains information on how to deny your consent to the use of profiling cookies. By clicking on “I UNDERSTAND” or by continuing browsing the website, you declare to have understood the terms of the privacy policy pursuant to articles 13 and 14 of Regulation (EU) 2016/679."
+msgstr "La informiamo che, per migliorare la Sua esperienza di navigazione su questo sito web, Romagna Bike, in qualità di titolare del trattamento, utilizza diversi tipi di cookie, tra cui cookies tecnici, analitici e pubblicitari. Nella pagina dell'informativa completa sono presenti le istruzioni per negare il consenso all'utilizzo dei cookie di profilazione. Cliccando su “HO CAPITO” o continuando la navigazione, dichiara di avere compreso le modalità nell'informativa completa ai sensi degli articoli 13 e 14 del Reg. (UE) 2016/679."
+
+#: header.php:185
+#: header.php:208
+#@ area38
+msgid "Useful infos"
+msgstr "Info utili"
+
+#: header.php:183
+#: header.php:210
+#: inc/fascia_hotel.php:20
+#@ area38
+msgid "Hotels"
+msgstr "Hotel"
+
+#: header.php:206
+#@ area38
+msgid "Close"
+msgstr "Chiudi"
+
+#: inc/form_newsletter.php:13
+#@ area38
+msgid "Your name"
+msgstr "Il tuo nome"
+
+#: inc/form_newsletter.php:14
+#@ area38
+msgid "Your email address"
+msgstr "Il tuo indirizzo email"
+
+#: inc/form_newsletter.php:15
+#@ area38
+msgid "Read here the confidentiality agreement in reference to art. 13 of EU regulation 2016/679"
+msgstr "Leggi qui l’informativa privacy in riferimento all’art. 13 del Regolamento UE 2016/679"
+
+#: inc/form_newsletter.php:17
+#@ area38
+msgid "Subscribe"
+msgstr "Iscriviti"
+
+#: footer.php:60
+#@ area38
+msgid "Change language:"
+msgstr "Cambia lingua:"
+
+#: footer.php:64
+#@ area38
+msgid "Follow us"
+msgstr "Seguici"
+
+#: footer.php:65
+#@ area38
+msgid "Romagna Bike on Instagram"
+msgstr "Romagna Bike su Instagram"
+
+#: footer.php:65
+#@ area38
+msgid "Romagna Bike on YouTube"
+msgstr "Romagna Bike su YouTube"
+
+#: header.php:45
+#: header.php:64
+#, php-format
+#@ area38
+msgid "Romagna Bike: %s"
+msgstr "Romagna Bike: %s"
+
+#: header.php:48
+#: header.php:58
+#, php-format
+#@ area38
+msgid "Romagna Bike: %s | Cycling routes in Romagna"
+msgstr "Romagna Bike: %s | Percorsi ciclistici in Romagna"
+
+#: header.php:274
+#: inc/fascia_eventi.php:67
+#: inc/fascia_lista_percorsi.php:175
+#: inc/get_preferiti_eventi.ajax.php:42
+#: inc/get_preferiti_percorsi.ajax.php:20
+#: page-templates/lista_eventi.php:117
+#: page-templates/lista_percorsi.php:75
+#: page-templates/scheda_percorso.php:155
+#@ area38
+msgid "ROAD"
+msgstr "BDC"
+
+#: header.php:275
+#: inc/fascia_eventi.php:68
+#: inc/fascia_lista_percorsi.php:179
+#: inc/get_preferiti_eventi.ajax.php:43
+#: inc/get_preferiti_percorsi.ajax.php:21
+#: page-templates/lista_eventi.php:118
+#: page-templates/lista_percorsi.php:79
+#: page-templates/scheda_percorso.php:156
+#@ area38
+msgid "MTB"
+msgstr "MTB"
+
+#: inc/fascia_eventi.php:73
+#: inc/get_preferiti_eventi.ajax.php:48
+#: inc/get_preferiti_percorsi.ajax.php:62
+#: page-templates/lista_eventi.php:123
+#: page-templates/lista_percorsi.php:128
+#: page-templates/scheda_percorso.php:211
+#@ area38
+msgid "Find out more"
+msgstr "Scopri di più"
+
+#: inc/fascia_photogallery.php:13
+#: page-templates/scheda_percorso.php:112
+#@ area38
+msgid "Gallery"
+msgstr "Gallery"
+
+#: inc/fascia_lista_percorsi.php:114
+#: inc/fascia_lista_percorsi.php:279
+#: inc/fascia_mappa_destinazioni.php:3
+#: inc/fascia_mappa_destinazioni.php:14
+#: inc/fascia_mappa_destinazioni.php:48
+#: inc/get_preferiti_percorsi.ajax.php:49
+#: page-templates/lista_eventi.php:82
+#: page-templates/lista_eventi.php:173
+#: page-templates/lista_percorsi.php:37
+#: page-templates/lista_percorsi.php:115
+#: page-templates/lista_percorsi.php:198
+#: page-templates/scheda_destinazione.php:53
+#: page-templates/scheda_destinazione.php:56
+#: page-templates/scheda_destinazione.php:57
+#: page-templates/scheda_percorso.php:184
+#@ area38
+msgid "Ferrara"
+msgstr "Ferrara"
+
+#: inc/fascia_lista_percorsi.php:115
+#: inc/fascia_lista_percorsi.php:280
+#: inc/fascia_mappa_destinazioni.php:4
+#: inc/fascia_mappa_destinazioni.php:15
+#: inc/fascia_mappa_destinazioni.php:53
+#: inc/get_preferiti_percorsi.ajax.php:51
+#: page-templates/lista_eventi.php:83
+#: page-templates/lista_eventi.php:174
+#: page-templates/lista_percorsi.php:38
+#: page-templates/lista_percorsi.php:117
+#: page-templates/lista_percorsi.php:199
+#: page-templates/scheda_destinazione.php:63
+#: page-templates/scheda_destinazione.php:66
+#: page-templates/scheda_destinazione.php:67
+#: page-templates/scheda_percorso.php:186
+#@ area38
+msgid "Ravenna"
+msgstr "Ravenna"
+
+#: inc/fascia_lista_percorsi.php:117
+#: inc/fascia_lista_percorsi.php:282
+#: inc/fascia_mappa_destinazioni.php:6
+#: inc/fascia_mappa_destinazioni.php:17
+#: inc/fascia_mappa_destinazioni.php:63
+#: inc/get_preferiti_percorsi.ajax.php:55
+#: page-templates/lista_eventi.php:85
+#: page-templates/lista_eventi.php:176
+#: page-templates/lista_percorsi.php:40
+#: page-templates/lista_percorsi.php:121
+#: page-templates/lista_percorsi.php:201
+#: page-templates/scheda_destinazione.php:83
+#: page-templates/scheda_destinazione.php:86
+#: page-templates/scheda_destinazione.php:87
+#: page-templates/scheda_percorso.php:190
+#@ area38
+msgid "Rimini"
+msgstr "Rimini"
+
+#: inc/fascia_lista_percorsi.php:116
+#: inc/fascia_lista_percorsi.php:281
+#: inc/fascia_mappa_destinazioni.php:5
+#: inc/fascia_mappa_destinazioni.php:16
+#: inc/fascia_mappa_destinazioni.php:58
+#: inc/get_preferiti_percorsi.ajax.php:53
+#: page-templates/lista_eventi.php:84
+#: page-templates/lista_eventi.php:175
+#: page-templates/lista_percorsi.php:39
+#: page-templates/lista_percorsi.php:119
+#: page-templates/lista_percorsi.php:200
+#: page-templates/scheda_destinazione.php:73
+#: page-templates/scheda_destinazione.php:76
+#: page-templates/scheda_destinazione.php:77
+#: page-templates/scheda_percorso.php:188
+#@ area38
+msgid "Forlì and Cesena"
+msgstr "Forlì e Cesena"
+
+#: inc/fascia_lista_percorsi.php:113
+#: page-templates/lista_eventi.php:81
+#: page-templates/lista_percorsi.php:36
+#@ area38
+msgid "Area"
+msgstr "Area"
+
+#: inc/fascia_lista_percorsi.php:124
+#: inc/fascia_lista_percorsi.php:300
+#: page-templates/lista_eventi.php:91
+#: page-templates/lista_eventi.php:194
+#: page-templates/lista_percorsi.php:46
+#: page-templates/lista_percorsi.php:219
+#: page-templates/scheda_evento.php:25
+#@ area38
+msgid "Mountain bike"
+msgstr "Mountain bike"
+
+#: header.php:279
+#: inc/fascia_lista_percorsi.php:193
+#@ area38
+msgid "Easy"
+msgstr "Facile"
+
+#: header.php:280
+#: inc/fascia_lista_percorsi.php:195
+#@ area38
+msgid "Medium"
+msgstr "Medio"
+
+#: header.php:281
+#: inc/fascia_lista_percorsi.php:197
+#@ area38
+msgid "Hard"
+msgstr "Difficile"
+
+#: inc/fascia_lista_percorsi.php:123
+#: inc/fascia_lista_percorsi.php:299
+#: page-templates/lista_eventi.php:90
+#: page-templates/lista_eventi.php:193
+#: page-templates/lista_percorsi.php:45
+#: page-templates/lista_percorsi.php:218
+#: page-templates/scheda_evento.php:24
+#@ area38
+msgid "Road bike"
+msgstr "Bici da strada"
+
+#: inc/get_preferiti_percorsi.ajax.php:26
+#: page-templates/lista_percorsi.php:92
+#: page-templates/scheda_percorso.php:161
+#@ area38
+msgid "easy"
+msgstr "facile"
+
+#: inc/get_preferiti_percorsi.ajax.php:27
+#: page-templates/lista_percorsi.php:93
+#: page-templates/scheda_percorso.php:162
+#@ area38
+msgid "medium"
+msgstr "medio"
+
+#: inc/get_preferiti_percorsi.ajax.php:28
+#: page-templates/lista_percorsi.php:94
+#: page-templates/scheda_percorso.php:163
+#@ area38
+msgid "hard"
+msgstr "difficile"
+
+#: footer.php:74
+#@ area38
+msgid "Powered by"
+msgstr "Realizzato da"
+
+#: footer.php:74
+#@ area38
+msgid "Area38 – Hotel Web Marketing"
+msgstr "Area38 – Web Marketing per Hotel"
+
+#: footer.php:74
+#@ area38
+msgid "Hospitality Marketing"
+msgstr "Hospitality Marketing"
+
+#: header.php:276
+#: inc/fascia_eventi.php:69
+#: inc/fascia_lista_percorsi.php:183
+#: inc/get_preferiti_eventi.ajax.php:44
+#: inc/get_preferiti_percorsi.ajax.php:22
+#: page-templates/lista_eventi.php:119
+#: page-templates/lista_percorsi.php:83
+#: page-templates/scheda_percorso.php:157
+#@ area38
+msgid "GRAVEL"
+msgstr "GRAVEL"
+
+#: inc/fascia_lista_percorsi.php:125
+#: inc/fascia_lista_percorsi.php:301
+#: page-templates/lista_eventi.php:92
+#: page-templates/lista_eventi.php:195
+#: page-templates/lista_percorsi.php:47
+#: page-templates/lista_percorsi.php:220
+#: page-templates/scheda_evento.php:26
+#@ area38
+msgid "Gravel bike"
+msgstr "Gravel bike"
+
+#: page-templates/lista_eventi.php:36
+#@ area38
+msgid "January"
+msgstr "Gennaio"
+
+#: page-templates/lista_eventi.php:37
+#@ area38
+msgid "February"
+msgstr "Febbraio"
+
+#: page-templates/lista_eventi.php:38
+#@ area38
+msgid "March"
+msgstr "Marzo"
+
+#: page-templates/lista_eventi.php:39
+#@ area38
+msgid "April"
+msgstr "Aprile"
+
+#: page-templates/lista_eventi.php:40
+#@ area38
+msgid "May"
+msgstr "Maggio"
+
+#: page-templates/lista_eventi.php:41
+#@ area38
+msgid "June"
+msgstr "Giugno"
+
+#: page-templates/lista_eventi.php:42
+#@ area38
+msgid "July"
+msgstr "Luglio"
+
+#: page-templates/lista_eventi.php:43
+#@ area38
+msgid "August"
+msgstr "Agosto"
+
+#: page-templates/lista_eventi.php:44
+#@ area38
+msgid "September"
+msgstr "Settembre"
+
+#: page-templates/lista_eventi.php:45
+#@ area38
+msgid "October"
+msgstr "Ottobre"
+
+#: page-templates/lista_eventi.php:46
+#@ area38
+msgid "November"
+msgstr "Novembre"
+
+#: page-templates/lista_eventi.php:47
+#@ area38
+msgid "December"
+msgstr "Dicembre"
+
+#: page-templates/scheda_evento.php:8
+#: page-templates/scheda_percorso.php:8
+#@ area38
+msgid "Home"
+msgstr "Home"
+
+#: footer.php:74
+#@ area38
+msgid "Coordination of"
+msgstr "Coordinamento di"
+
+#: inc/fascia_esperienze.php:6
+#: inc/fascia_esperienze.php:13
+#: inc/fascia_esperienze.php:20
+#: inc/fascia_esperienze.php:28
+#: inc/fascia_esperienze.php:35
+#: page-templates/scheda_esperienza.php:35
+#: page-templates/scheda_esperienza.php:42
+#: page-templates/scheda_esperienza.php:49
+#: page-templates/scheda_esperienza.php:56
+#: page-templates/scheda_esperienza.php:63
+#@ area38
+msgid "Enter"
+msgstr "Entra"
+
+#: inc/fascia_lista_percorsi.php:202
+#@ area38
+msgid "enter"
+msgstr "entra"
+
+#: inc/fascia_eventi.php:57
+#: page-templates/lista_eventi.php:96
+#@ area38
+msgid "Events"
+msgstr "Eventi"
+
+#: page-templates/homepage.php:27
+#: page-templates/lista_eventi.php:96
+#: page-templates/lista_eventi.php:210
+#@ area38
+msgid "events"
+msgstr "eventi"
+
+#: inc/form_newsletter.php:10
+#@ area38
+msgid "No spam"
+msgstr "No spam"
+
+#: footer.php:39
+#@ area38
+msgid "Tel."
+msgstr "Tel."
+
+#: footer.php:41
+#@ default
+msgid "E-mail:"
+msgstr ""
+
+#: footer.php:65
+#@ area38
+msgid "Romagna Bike on Facebook"
+msgstr "Romagna Bike on Facebook"
+
+#: footer.php:65
+#@ area38
+msgid "Romagna Bike on Twitter"
+msgstr "Romagna Bike on Twitter"
+
+#: footer.php:65
+#@ area38
+msgid "Romagna Bike on Flickr"
+msgstr "Romagna Bike on Flickr"
+
+#: footer.php:74
+#: page-templates/hotels.php:16
+#: page-templates/hotels.php:52
+#: page-templates/hotels.php:107
+#@ area38
+msgid "Terrabici"
+msgstr "Terrabici"
+
+#: header.php:182
+#: header.php:211
+#@ area38
+msgid "Favourites"
+msgstr "Preferiti"
+
+#: inc/fascia_esperienze.php:2
+#: page-templates/scheda_esperienza.php:32
+#@ area38
+msgid "Food & Wine experiences"
+msgstr "Esperienze enogastronomiche"
+
+#: page-templates/scheda_esperienza.php:34
+#@ area38
+msgid "Experiences"
+msgstr "Esperienze"
+
+#: header.php:261
+#: inc/fascia_lista_percorsi.php:104
+#: inc/fascia_lista_percorsi.php:248
+#: inc/get_preferiti_percorsi.ajax.php:36
+#: page-templates/lista_percorsi.php:28
+#: page-templates/lista_percorsi.php:102
+#: page-templates/lista_percorsi.php:167
+#: page-templates/scheda_esperienza.php:34
+#: page-templates/scheda_percorso.php:171
+#@ area38
+msgid "Food & Wine"
+msgstr "Enogastronomiche"
+
+#: inc/fascia_esperienze.php:6
+#: page-templates/scheda_esperienza.php:35
+#@ area38
+msgid "Variety, quality and tradition: the gastronomic cradle of Italy"
+msgstr "Varietà, qualità e tradizione: la culla gastronomica d'Italia"
+
+#: inc/fascia_esperienze.php:9
+#: page-templates/scheda_esperienza.php:39
+#@ area38
+msgid "Villages, fortresses and castles"
+msgstr "Borghi, fortezze e castelli"
+
+#: inc/fascia_esperienze.php:12
+#: page-templates/scheda_esperienza.php:41
+#@ area38
+msgid "Villages, fortresses"
+msgstr "Borghi, fortezze"
+
+#: inc/fascia_esperienze.php:12
+#: page-templates/scheda_esperienza.php:41
+#@ area38
+msgid "and castles"
+msgstr "e castelli"
+
+#: inc/fascia_esperienze.php:13
+#: page-templates/scheda_esperienza.php:42
+#@ area38
+msgid "Gems hidden among the valleys: the Romagna of villages, fortresses and castles"
+msgstr "Gemme nascoste tra le vallate: la Romagna di borghi, rocche e castelli"
+
+#: inc/fascia_esperienze.php:16
+#@ area38
+msgid "Iconic Experiences"
+msgstr "Esperienze iconiche"
+
+#: inc/fascia_esperienze.php:20
+#: page-templates/scheda_esperienza.php:49
+#@ area38
+msgid "Routes, climbs, panoramic viewpoints: Romagna not to be missed"
+msgstr "Percorsi, salite, punti panoramici: la Romagna da non perdere"
+
+#: header.php:270
+#: inc/fascia_esperienze.php:24
+#: inc/fascia_esperienze.php:27
+#: inc/fascia_lista_percorsi.php:107
+#: inc/fascia_lista_percorsi.php:260
+#: inc/get_preferiti_percorsi.ajax.php:42
+#: page-templates/lista_percorsi.php:31
+#: page-templates/lista_percorsi.php:108
+#: page-templates/lista_percorsi.php:179
+#: page-templates/scheda_esperienza.php:53
+#: page-templates/scheda_esperienza.php:55
+#: page-templates/scheda_percorso.php:177
+#@ area38
+msgid "Local secrets"
+msgstr "Segreti locali"
+
+#: inc/fascia_esperienze.php:28
+#: page-templates/scheda_esperienza.php:56
+#@ area38
+msgid "Places, suggestions and goodies: Romagna beyond the conventional routes"
+msgstr "Luoghi, suggerimenti e chicche: la Romagna oltre le rotte convenzionali"
+
+#: inc/fascia_eventi.php:78
+#@ area38
+msgid "Show all events"
+msgstr "Mostra tutti gli eventi"
+
+#: page-templates/scheda_esperienza.php:27
+#@ area38
+msgid "Discover the other experiences"
+msgstr "Scopri le altre esperienze"
+
+#: page-templates/scheda_esperienza.php:28
+#@ area38
+msgid "View the best routes in Romagna, divided by type of experience."
+msgstr "Visualizza i percorsi migliori in Romagna, divisi per tipo di esperienza."
+
+#: page-templates/scheda_esperienza.php:46
+#@ area38
+msgid "Iconic routes"
+msgstr "Percorsi iconici"
+
+#: inc/fascia_lista_percorsi.php:130
+#: page-templates/lista_percorsi.php:52
+#: page-templates/scheda_esperienza.php:48
+#@ area38
+msgid "Routes"
+msgstr "Percorsi"
+
+#: header.php:267
+#: inc/fascia_lista_percorsi.php:106
+#: inc/fascia_lista_percorsi.php:256
+#: inc/get_preferiti_percorsi.ajax.php:40
+#: page-templates/lista_percorsi.php:30
+#: page-templates/lista_percorsi.php:106
+#: page-templates/lista_percorsi.php:175
+#: page-templates/scheda_esperienza.php:48
+#: page-templates/scheda_percorso.php:175
+#@ area38
+msgid "Iconic"
+msgstr "Iconici"
+
+#: header.php:264
+#: inc/fascia_lista_percorsi.php:105
+#: inc/fascia_lista_percorsi.php:252
+#: inc/get_preferiti_percorsi.ajax.php:38
+#: page-templates/lista_percorsi.php:29
+#: page-templates/lista_percorsi.php:104
+#: page-templates/lista_percorsi.php:171
+#: page-templates/scheda_percorso.php:173
+#@ area38
+msgid "Villages and castles"
+msgstr "Borghi e castelli"
+
+#: inc/fascia_lista_percorsi.php:100
+#: page-templates/lista_eventi.php:73
+#: page-templates/lista_percorsi.php:25
+#@ area38
+msgid "Filter by"
+msgstr "Filtra per"
+
+#: inc/fascia_lista_percorsi.php:122
+#: page-templates/lista_eventi.php:89
+#: page-templates/lista_percorsi.php:44
+#@ area38
+msgid "Type of bike"
+msgstr "Tipologia di bici"
+
+#: inc/fascia_photogallery.php:13
+#@ area38
+msgid "See for yourself"
+msgstr "Guarda con i tuoi occhi"
+
+#: page-templates/scheda_destinazione.php:48
+#@ area38
+msgid "Discover the other destinations"
+msgstr "Scopri le altre destinazioni"
+
+#: inc/fascia_lista_percorsi.php:103
+#: page-templates/lista_percorsi.php:27
+#@ area38
+msgid "Experience"
+msgstr "Esperienza"
+
+#: inc/fascia_lista_percorsi.php:130
+#: inc/fascia_lista_percorsi.php:317
+#: page-templates/homepage.php:26
+#: page-templates/lista_percorsi.php:52
+#: page-templates/lista_percorsi.php:236
+#@ area38
+msgid "routes"
+msgstr "percorsi"
+
+#: page-templates/homepage.php:33
+#@ area38
+msgid "Where"
+msgstr "Dove"
+
+#: inc/fascia_lista_percorsi.php:210
+#: page-templates/scheda_percorso.php:265
+#@ area38
+msgid "See all the routes"
+msgstr "Vedi tutti i percorsi"
+
+#: inc/fascia_lista_percorsi.php:206
+#@ area38
+msgid "favourites"
+msgstr "preferiti"
+
+#: inc/get_preferiti.ajax.php:22
+#: inc/get_preferiti.ajax.php:38
+#@ area38
+msgid "Favourite routes"
+msgstr "Percorsi preferiti"
+
+#: inc/get_preferiti.ajax.php:24
+#@ area38
+msgid "<strong>0</strong> added routes"
+msgstr "<strong>0</strong> percorsi aggiunti"
+
+#: inc/get_preferiti.ajax.php:24
+#: inc/get_preferiti.ajax.php:30
+#@ area38
+msgid "click on the box to add them to your favourites"
+msgstr "clicca sul box per aggiungerli tra i tuoi preferiti"
+
+#: inc/get_preferiti.ajax.php:26
+#, php-format
+#@ area38
+msgid "<strong>%s</strong> routes"
+msgstr "<strong>%s</strong> percorsi"
+
+#: inc/get_preferiti.ajax.php:28
+#: inc/get_preferiti.ajax.php:43
+#@ area38
+msgid "Favourite events"
+msgstr "Eventi preferiti"
+
+#: inc/get_preferiti.ajax.php:30
+#@ area38
+msgid "<strong>0</strong> added events"
+msgstr "<strong>0</strong> eventi aggiunti"
+
+#: inc/get_preferiti.ajax.php:32
+#, php-format
+#@ area38
+msgid "<strong>%s</strong> events"
+msgstr "<strong>%s</strong> eventi"
+
+#: inc/get_preferiti.ajax.php:36
+#@ area38
+msgid "Add routes"
+msgstr "Aggiungi percorsi"
+
+#: inc/get_preferiti.ajax.php:41
+#@ area38
+msgid "Add events"
+msgstr "Aggiungi eventi"
+
+#: inc/get_preferiti_percorsi.ajax.php:60
+#: page-templates/lista_percorsi.php:126
+#: page-templates/scheda_percorso.php:209
+#@ area38
+msgid "Difficulties"
+msgstr "Difficoltà"
+
+#: inc/form_newsletter.php:5
+#@ area38
+msgid "Stay in touch with Romagna!"
+msgstr "Resta in contatto con la Romagna!"
+
+#: inc/form_newsletter.php:6
+#@ area38
+msgid "Romagna is synonymous with hospitality. As people of Romagna, we want to keep you constantly informed about events, itineraries and special offers dedicated specifically to cyclists."
+msgstr "Romagna è sinonimo di ospitalità. Da buoni romagnoli vogliamo tenerti sempre informato su eventi, itinerari e offerte a misura di ciclista."
+
+#: inc/form_newsletter.php:8
+#@ area38
+msgid "Ideas for routes"
+msgstr "Idee per itinerari"
+
+#: inc/form_newsletter.php:9
+#@ area38
+msgid "Current offers"
+msgstr "Offerte del momento"
+
+#: inc/get_preferiti_eventi.ajax.php:36
+#: inc/get_preferiti_percorsi.ajax.php:17
+#@ area38
+msgid "All the lists"
+msgstr "Tutte le liste"
+
+#: inc/get_preferiti_eventi.ajax.php:108
+#@ area38
+msgid "No event yet added to favourites"
+msgstr "Nessun evento ancora aggiunto ai preferiti"
+
+#: inc/get_preferiti_percorsi.ajax.php:121
+#@ area38
+msgid "No route yet added to favourites"
+msgstr "Nessun percorso ancora aggiunto ai preferiti"
+
+#: page-templates/lista_eventi.php:75
+#@ area38
+msgid "Period"
+msgstr "Periodo"
+
+#: page-templates/scheda_evento.php:29
+#: page-templates/scheda_evento.php:65
+#: page-templates/scheda_percorso.php:20
+#: page-templates/scheda_percorso.php:54
+#@ area38
+msgid "add to favourites"
+msgstr "aggiungi ai preferiti"
+
+#: page-templates/scheda_evento.php:55
+#: page-templates/scheda_evento.php:71
+#: page-templates/scheda_percorso.php:44
+#: page-templates/scheda_percorso.php:60
+#@ area38
+msgid "added to favourites"
+msgstr "aggiunto ai preferiti"
+
+#: page-templates/scheda_percorso.php:18
+#@ area38
+msgid "Itinerary"
+msgstr "Itinerario"
+
+#: page-templates/scheda_percorso.php:95
+#@ area38
+msgid "Download trace GPX"
+msgstr "Scarica traccia GPX"
+
+#: page-templates/scheda_percorso.php:97
+#@ area38
+msgid "Download trace KMZ"
+msgstr "Scarica traccia KMZ"
+
+#: page-templates/scheda_percorso.php:103
+#@ area38
+msgid "Curiosities"
+msgstr "Curiosità"
+
+#: page-templates/scheda_percorso.php:150
+#@ area38
+msgid "If you liked this route, we also suggest"
+msgstr "Se ti è piaciuto questo percorso ti consigliamo anche"
+
+#: page-templates/scheda_percorso.php:215
+#@ area38
+msgid "Feel lucky?"
+msgstr "Ti senti fortunato?"
+
+#: page-templates/scheda_percorso.php:215
+#@ area38
+msgid "Discover a random route"
+msgstr "Scopri un percorso random"
+
+#: inc/fascia_hotel.php:5
+#@ area38
+msgid "Start dreaming about your holiday in Ferrara! Choose from among certified bike hotels and discover the current offers to plan an unforgettable experience."
+msgstr "Inizia a sognare la tua vacanza a Ferrara! Scegli fra bike hotel certificati e scopri le offerte del momento per pianificare un’esperienza indimenticabile."
+
+#: inc/fascia_hotel.php:7
+#@ area38
+msgid "Start dreaming about your holiday in Ravenna! Choose from among certified bike hotels and discover the current offers to plan an unforgettable experience."
+msgstr "Inizia a sognare la tua vacanza a Ravenna! Scegli fra bike hotel certificati e scopri le offerte del momento per pianificare un’esperienza indimenticabile."
+
+#: inc/fascia_hotel.php:9
+#@ area38
+msgid "Start dreaming about your holiday in Forlì-Cesena! Choose from among certified bike hotels and discover the current offers to plan an unforgettable experience."
+msgstr "Inizia a sognare la tua vacanza a Forlì-Cesena! Scegli fra bike hotel certificati e scopri le offerte del momento per pianificare un’esperienza indimenticabile."
+
+#: inc/fascia_hotel.php:11
+#@ area38
+msgid "Start dreaming about your holiday in Rimini! Choose from among certified bike hotels and discover the current offers to plan an unforgettable experience."
+msgstr "Inizia a sognare la tua vacanza a Rimini! Scegli fra bike hotel certificati e scopri le offerte del momento per pianificare un’esperienza indimenticabile."
+
+#: inc/fascia_hotel.php:14
+#@ area38
+msgid "Start dreaming about Romagna! Check out the best routes and current offers to plan your unforgettable holiday."
+msgstr "Inizia a sognare la Romagna! Consulta i percorsi migliori e le offerte del momento per pianificare la tua vacanza indimenticabile."
+
+#: inc/fascia_hotel.php:16
+#@ area38
+msgid "Start dreaming about Romagna! Choose your hotel and take a look at current offers to plan your unforgettable holiday."
+msgstr "Inizia a sognare la Romagna! Scegli il tuo hotel e scopri le offerte del momento per pianificare la tua vacanza indimenticabile."
+
+#: inc/fascia_hotel.php:23
+#@ area38
+msgid "The best bike hotels in Ferrara: facilities for cycling fans"
+msgstr "I migliori bike hotel a Ferrara: strutture per chi ama la bici"
+
+#: inc/fascia_hotel.php:25
+#@ area38
+msgid "The best bike hotels in Ravenna: facilities for cycling fans"
+msgstr "I migliori bike hotel a Ravenna: strutture per chi ama la bici"
+
+#: inc/fascia_hotel.php:27
+#@ area38
+msgid "The best bike hotels in Forlì-Cesena: facilities for cycling fans"
+msgstr "I migliori bike hotel a Forlì-Cesena: strutture per chi ama la bici"
+
+#: inc/fascia_hotel.php:29
+#@ area38
+msgid "The best bike hotels in Rimini: facilities for cycling fans"
+msgstr "I migliori bike hotel a Rimini: strutture per chi ama la bici"
+
+#: inc/fascia_hotel.php:31
+#@ area38
+msgid "Choose from among the best hotels in Romagna, where hospitality is a byword"
+msgstr "Scegli tra i migliori hotel in Romagna, dove l'accoglienza è di casa"
+
+#: inc/fascia_hotel.php:33
+#@ area38
+msgid "See hotels"
+msgstr "Vedi hotel"
+
+#: inc/fascia_hotel.php:36
+#@ area38
+msgid "Current packages"
+msgstr "Pacchetti del momento"
+
+#: inc/fascia_hotel.php:39
+#@ area38
+msgid "Selected offers to discover Ferrara by bike"
+msgstr "Offerte selezionate per scoprire Ferrara in sella alla bici"
+
+#: inc/fascia_hotel.php:41
+#@ area38
+msgid "Selected offers to discover Ravenna by bike"
+msgstr "Offerte selezionate per scoprire Ravenna in sella alla bici"
+
+#: inc/fascia_hotel.php:43
+#@ area38
+msgid "Selected offers to discover Forlì-Cesena by bike"
+msgstr "Offerte selezionate per scoprire Forlì-Cesena in sella alla bici"
+
+#: inc/fascia_hotel.php:45
+#@ area38
+msgid "Selected offers to discover Rimini by bike"
+msgstr "Offerte selezionate per scoprire Rimini in sella alla bici"
+
+#: inc/fascia_hotel.php:47
+#@ area38
+msgid "Take advantage of our best offers to discover Romagna"
+msgstr "Approfitta delle nostre migliore offerte per scoprire la Romagna"
+
+#: inc/fascia_hotel.php:49
+#@ area38
+msgid "See offers"
+msgstr "Vedi offerte"
+
+#: inc/fascia_hotel.php:53
+#@ area38
+msgid "Racing bikes, MTB, E-MTB and gravel. Find the right route for you."
+msgstr "Bici da corsa, MTB, E-MTB e gravel. Trova il percorso adatto a te."
+
+#: inc/fascia_hotel.php:54
+#@ area38
+msgid "See routes"
+msgstr "Vedi percorsi"
+
+#: inc/fascia_mappa_destinazioni.php:49
+#@ area38
+msgid "A UNESCO World Heritage Site and \"City of Bicycles\", Ferrara will win you over with its historic centre, its Estense \"Delights\" and its peaceful countryside."
+msgstr "Patrimonio dell’umanità Unesco e \"Città delle biciclette\", Ferrara saprà conquistarti con il suo centro storico, le \"Delizie\" estensi e la sua silenziosa campagna."
+
+#: inc/fascia_mappa_destinazioni.php:54
+#@ area38
+msgid "A city of art par excellence located between the sea and the hills, Ravenna will entice you with its millenary history and the famous Byzantine mosaics of its basilicas."
+msgstr "Città d’arte romagnola per eccellenza collocata tra mare e colline, Ravenna ti coinvolgerà con la sua storia millenaria e i famosi mosaici bizantini delle sue basiliche."
+
+#: inc/fascia_mappa_destinazioni.php:59
+#@ area38
+msgid "Bertinoro, the Sangiovese vineyards and the renowned thermal spas are just some of the treasures preserved in the area of Forlì-Cesena, all to be discovered while cycling."
+msgstr "Bertinoro, le vigne di Sangiovese e i rinomati centri termali sono soltanto alcuni dei tesori custoditi nel territorio di Forlì-Cesena, una zona tutta da scoprire pedalando."
+
+#: inc/fascia_mappa_destinazioni.php:64
+#@ area38
+msgid "Not only beaches: let yourself be guided to discover the city of the Malatesta and Fellini, the villages of San Leo and Verucchio and the valley of the river Marecchia."
+msgstr "Non solo spiagge: lasciati guidare alla scoperta della città dei Malatesta e di Fellini, dei borghi di San Leo e Verucchio e della vallata del fiume Marecchia."
+
+#: page-templates/homepage.php:34
+#@ area38
+msgid "Click on the areas below to start your journey of discovery of Romagna and its countryside."
+msgstr "Clicca sulle aree qui sotto per iniziare il tuo viaggio alla scoperta della Romagna e dei suoi territori."
+
+#: page-templates/homepage.php:42
+#@ area38
+msgid "Find the inspiration"
+msgstr "Trova l'ispirazione"
+
+#: page-templates/homepage.php:43
+#@ area38
+msgid "Experience Romagna in all its facets, let yourself be inspired by a region rich in excellence through four different experiences."
+msgstr "Vivi la Romagna in tutte le sue sfaccettature, lasciati ispirare da un territorio ricco di eccellenze attraverso quattro diverse esperienze."
+
+#: inc/fascia_eventi.php:41
+#@ area38
+msgid "Ferrara events"
+msgstr "Eventi Ferrara"
+
+#: inc/fascia_eventi.php:42
+#@ area38
+msgid "Gran Fondo del Po and much more. Discover the best events organized in Ferrara (and surroundings) dedicated to cycling enthusiasts."
+msgstr "Gran Fondo del Po e molto altro. Scopri i migliori eventi organizzati a Ferrara (e dintorni) dedicati agli appassionati della bici."
+
+#: inc/fascia_eventi.php:45
+#@ area38
+msgid "Ravenna events"
+msgstr "Eventi Ravenna"
+
+#: inc/fascia_eventi.php:46
+#@ area38
+msgid "Gran Fondo Cassani, Gran Fondo Via del Sale and much more. Discover the best events organized in Ravenna (and surroundings) dedicated to cycling enthusiasts."
+msgstr "Gran Fondo Cassani, Gran Fondo Via del Sale e molto altro. Scopri i migliori eventi organizzati a Ravenna (e dintorni) dedicati agli appassionati della bici."
+
+#: inc/fascia_eventi.php:49
+#@ area38
+msgid "Forlì-Cesena events"
+msgstr "Eventi Forlì-Cesena"
+
+#: inc/fascia_eventi.php:50
+#@ area38
+msgid "Gran Fondo 9 Colli, Gran Fondo Marco Pantani and much more. Discover the best events organized in Forlì-Cesena (and surroundings) dedicated to bike fans."
+msgstr "Gran Fondo 9 Colli, Gran Fondo Marco Pantani e molto altro. Scopri i migliori eventi organizzati a Forlì-Cesena (e dintorni) dedicati agli appassionati della bici."
+
+#: inc/fascia_eventi.php:53
+#@ area38
+msgid "Rimini events"
+msgstr "Eventi Rimini"
+
+#: inc/fascia_eventi.php:54
+#@ area38
+msgid "Gran Fondo degli Squali, Ride Riccione and much more. Discover the best events organized in Rimini (and surroundings) dedicated to bike fans."
+msgstr "Gran Fondo degli Squali, Ride Riccione e molto altro. Scopri i migliori eventi organizzati a Rimini (e dintorni) dedicati agli appassionati della bici."
+
+#: inc/fascia_eventi.php:58
+#@ area38
+msgid "Cycle tourism, mountain biking, Gran Fondo and, above all, the Giro d'Italia 2020. Discover the many events organized in Romagna; unmissable events for cycling lovers."
+msgstr "Cicloturismo, mountain bike, Gran Fondo e, soprattutto, il Giro d’Italia 2020. Scopri i numerosi eventi organizzati in Romagna, appuntamenti imperdibili per gli amanti del ciclismo."
+
+#: inc/fascia_lista_percorsi.php:8
+#@ area38
+msgid "Choose your routes in Ferrara"
+msgstr "Scegli i tuoi percorsi a Ferrara"
+
+#: inc/fascia_lista_percorsi.php:11
+#@ area38
+msgid "Choose your routes in Ravenna"
+msgstr "Scegli i tuoi percorsi a Ravenna"
+
+#: inc/fascia_lista_percorsi.php:14
+#@ area38
+msgid "Choose your routes in Forlì-Cesena"
+msgstr "Scegli i tuoi percorsi a Forlì-Cesena"
+
+#: inc/fascia_lista_percorsi.php:17
+#@ area38
+msgid "Choose your routes in Rimini"
+msgstr "Scegli i tuoi percorsi a Rimini"
+
+#: inc/fascia_lista_percorsi.php:19
+#@ area38
+msgid "View routes directly on the map or filter the selection by experience and bike type. You can then save the routes among your favourites."
+msgstr "Visualizza i percorsi direttamente sulla mappa oppure filtra la selezione per tipo di esperienza e bicicletta. Potrai poi salvare gli itinerari tra i tuoi percorsi preferiti."
+
+#: inc/fascia_lista_percorsi.php:23
+#@ area38
+msgid "The best routes to discover Romagna's <span>food and wine treasures</span>"
+msgstr "I migliori percorsi per scoprire i <span>tesori enogastronomici</span> romagnoli"
+
+#: inc/fascia_lista_percorsi.php:26
+#@ area38
+msgid "The best routes to discover <span>fortresses, villages and castles</span>"
+msgstr "I migliori percorsi per scoprire <span>rocche, borghi e castelli</span>"
+
+#: inc/fascia_lista_percorsi.php:29
+#@ area38
+msgid "The best routes to discover <span>iconic places</span> in Romagna"
+msgstr "I migliori percorsi per scoprire i <span>luoghi</span> iconici in Romagna"
+
+#: inc/fascia_lista_percorsi.php:32
+#@ area38
+msgid "The best routes to discover <span>local secrets</span>"
+msgstr "I migliori percorsi per scoprire i <span>segreti locali</span>"
+
+#: inc/fascia_lista_percorsi.php:37
+#@ area38
+msgid "View routes directly on the map or filter the selection by area and type of bike. You can then save the routes as favourites."
+msgstr "Visualizza i percorsi direttamente sulla mappa oppure filtra la selezione per area e tipo di bicicletta. Potrai poi salvare gli itinerari tra i preferiti."
+
+#: footer.php:38
+#@ area38
+msgid "at APT Servizi srl"
+msgstr "presso APT Servizi srl"
+
+#: footer.php:40
+#@ area38
+msgid "Certified email:"
+msgstr "PEC:"
+
+#: inc/fascia_hotel.php:52
+#: inc/fascia_hotel.php:53
+#@ area38
+msgid "Bicycle routes"
+msgstr "Percorsi per bici"
+
+#: inc/fascia_lista_percorsi.php:108
+#: inc/fascia_lista_percorsi.php:118
+#: inc/fascia_lista_percorsi.php:127
+#: page-templates/lista_eventi.php:78
+#: page-templates/lista_eventi.php:86
+#: page-templates/lista_eventi.php:93
+#: page-templates/lista_percorsi.php:33
+#: page-templates/lista_percorsi.php:41
+#: page-templates/lista_percorsi.php:49
+#@ area38
+msgid "All"
+msgstr "Tutti"
+
+#: page-templates/hotels.php:60
+#@ area38
+msgid "Bike Hotels certified by Terrabici"
+msgstr "Bike Hotel certificati da Terrabici"
+
+#: page-templates/hotels.php:52
+#, php-format
+#@ area38
+msgid "Bike Hotels certified by %s"
+msgstr "Bike Hotel certificati da %s"
+
+#: page-templates/hotels.php:53
+#@ area38
+msgid "Bike rental, bike room, guided tours, food designed for athletes and much more. The Bike Hotels of the Terrabici circuit offer services specifically designed for the needs of those who choose a holiday where the bicycle plays lead role."
+msgstr "Noleggio bici, bike room, tour guidati, alimentazione studiata per sportivi e molto altro. I Bike Hotel del circuito Terrabici offrono servizi specificatamente studiati per le esigenze di chi sceglie di vivere una vacanza con la bici protagonista."
+
+#: page-templates/hotels.php:61
+#@ area38
+msgid "Discover the certified Bike Hotels"
+msgstr "Scopri i Bike Hotel certificati"
+
+#: page-templates/hotels.php:64
+#@ area38
+msgid "Hotels, pensions and campsites. Discover all the facilities in the Romagna region and plan your holiday in Romagna in complete autonomy. You can count on the hospitality of hundreds of facilities suitable for every need."
+msgstr "Hotel, pensioni e campeggi. Scopri tutte le strutture presenti sul territorio romagnolo e pianifica la tua vacanza in Romagna in completa autonomia. Potrai contare sull’ospitalità di centinaia di strutture adatte a ogni esigenza."
+
+#: page-templates/hotels.php:72
+#@ area38
+msgid "Discover the facilities in Romagna"
+msgstr "Scopri le strutture in Romagna"
+
+#: page-templates/hotels.php:115
+#@ area38
+msgid "Offers certified by Terrabici"
+msgstr "Offerte certificate da Terrabici"
+
+#: page-templates/hotels.php:107
+#, php-format
+#@ area38
+msgid "Offers certified by %s"
+msgstr "Offerte certificate da %s"
+
+#: page-templates/hotels.php:108
+#@ area38
+msgid "Discover all the currently available package offered by Bike Hotels certified by Terrabici and find the right solution for a holiday where the bicycle plays lead role. Offers for cycling events, training camps and much more."
+msgstr "Scopri tutti i pacchetti del momento dei Bike Hotel certificati da Terrabici e trova la soluzione per una vacanza con la bici protagonista. Offerte per eventi ciclistici, training camp e molto altro."
+
+#: page-templates/hotels.php:116
+#: page-templates/hotels.php:127
+#@ area38
+msgid "Discover all the offers"
+msgstr "Scopri tutte le offerte"
+
+#: page-templates/hotels.php:126
+#@ area38
+msgid "Special hotel offers in Romagna"
+msgstr "Offerte degli hotel in Romagna"
+
+#: page-templates/hotels.php:119
+#@ area38
+msgid "Discover the numerous offers of hotels in Romagna and organize your next cycling holiday. Wellness packages, holiday offers and much more."
+msgstr "Scopri le numerose offerte degli hotel presenti sul territorio romagnolo e organizza la tua prossima vacanza in bici. Pacchetti benessere, offerte per festività e molto altro."
+
+#: page-templates/lista_destinazioni.php:23
+#@ area38
+msgid "Be inspired"
+msgstr "Lasciati ispirare"
+
+#: page-templates/lista_esperienze.php:23
+#@ area38
+msgid "Or find the route that's right for you"
+msgstr "Oppure trova il percorso che fa per te"
+
+#: page-templates/lista_esperienze.php:24
+#@ area38
+msgid "We have selected the best routes by area. See the map below to find the route that's right for you."
+msgstr "Abbiamo selezionato gli itinerari migliori raggruppandoli per area. Consulta la mappa qui sotto per trovare il percorso che fa per te."
+
+#: footer.php:37
+#@ area38
+msgid "Tourist destination Romagna"
+msgstr "Destinazione turistica Romagna"
+
+#: footer.php:39
+#@ area38
+msgid "Taxpayer’s Code"
+msgstr "C.F."
+
+#: page-templates/homepage.php:25
+#@ area38
+msgid "kilometres of itinerary"
+msgstr "km di itinerari"
+
+#: inc/fascia_esperienze.php:5
+#@ area38
+msgid "<span>Food & Wine</span><br /><span>Experiences</span>"
+msgstr "<span>Esperienze</span><br/><span>enogastronomiche</span>"
+
+#: inc/fascia_esperienze.php:19
+#@ area38
+msgid "<span>Iconic</span><br /><span>Experiences</span>"
+msgstr "<span>Esperienze</span><br/><span>iconiche</span>"
+
+#: page-templates/hotels.php:71
+#@ area38
+msgid "Hotels in Romagna"
+msgstr "Hotel in Romagna"
+
+#: footer.php:42
+#@ area38
+msgid "Privacy & Cookie policy"
+msgstr "Privacy & Cookie policy"
+
+#: footer.php:82
+#@ area38
+msgid "PRIVACY AND COOKIE NOTICE"
+msgstr "INFORMATIVA PRIVACY E COOKIE"
+
+#: inc/fascia_lista_percorsi.php:126
+#: inc/fascia_lista_percorsi.php:302
+#: page-templates/lista_percorsi.php:48
+#: page-templates/lista_percorsi.php:221
+#@ area38
+msgid "E-bike"
+msgstr "E-bike"
+
+#: inc/fascia_lista_percorsi.php:187
+#: inc/get_preferiti_percorsi.ajax.php:23
+#: page-templates/lista_percorsi.php:87
+#: page-templates/scheda_percorso.php:158
+#@ area38
+msgid "E-BIKE"
+msgstr "E-BIKE"
+
+#: inc/fascia_esperienze.php:31
+#: inc/fascia_esperienze.php:34
+#: inc/get_preferiti_percorsi.ajax.php:44
+#: page-templates/lista_percorsi.php:32
+#: page-templates/lista_percorsi.php:110
+#: page-templates/scheda_esperienza.php:60
+#: page-templates/scheda_esperienza.php:62
+#: page-templates/scheda_percorso.php:179
+#@ area38
+msgid "Bike & Family"
+msgstr "Bike & Family"
+
+#: inc/fascia_esperienze.php:35
+#: page-templates/scheda_esperienza.php:63
+#@ area38
+msgid "Cycling with the family: delightful cycle rides that are suitable for children too"
+msgstr "In bici con la famiglia: piacevoli pedalate adatte anche ai bambini"
+
+#: inc/fascia_lista_percorsi.php:35
+#@ area38
+msgid "The best routes to discover cycling with the <span>family</span>"
+msgstr "I migliori percorsi per scoprire in bici con la <span>famiglia</span>"
+
+#: page-templates/lista_destinazioni.php:24
+#@ area38
+msgid "Food and wine stops, small villages, unmissable sites, secret locations and itineraries for all the family. Choose the experience that best suits you and discover all the excellences of Romagna."
+msgstr "Tappe enogastronomiche, borghi, luoghi imperdibili e segreti locali. Scegli l’esperienza che fa per te e scopri le eccellenze romagnole."
+
+#: footer.php:68
+#@ area38
+msgid "Discover the other experiences in Romagna"
+msgstr "Scopri le altre esperienze in Romagna"
+
+#: footer.php:69
+#@ area38
+msgid "Visit Romagna"
+msgstr "Visit Romagna"
+
+#: footer.php:70
+#@ area38
+msgid "Camera di Commercio della Romagna"
+msgstr "Camera di Commercio della Romagna"
+
+#: header.php:296
+#@ area38
+msgid "Romagna for those who love cycling"
+msgstr "La Romagna per chi ama pedalare"
+
+#: page-templates/lista_percorsi.php:18
+#@ area38
+msgid "Download a preview of the routes"
+msgstr "Scarica un’anteprima dei percorsi"
+
